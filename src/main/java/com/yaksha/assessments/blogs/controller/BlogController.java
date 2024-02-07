@@ -29,28 +29,31 @@ public class BlogController {
 
 	@PostMapping
 	public ResponseEntity<BlogEntity> createBlog(@Valid @RequestBody BlogEntity blogEntity) {
-
+		// write your logic here
 		return null;
 	}
 
 	@GetMapping("/{id}")
 	public ResponseEntity<BlogEntity> getBlogById(@PathVariable Long id) {
+		// write your logic here
 		return null;
 	}
 
 	@PutMapping
 	public ResponseEntity<BlogEntity> updateBlog(@RequestBody BlogEntity BlogEntity) {
-
+		// write your logic here
 		return null;
 	}
 
 	@DeleteMapping("/{id}")
 	public ResponseEntity<Boolean> deleteBlogById(@PathVariable Long id) {
+		// write your logic here
 		return null;
 	}
 
 	@GetMapping("/all")
 	public ResponseEntity<List<BlogEntity>> getAllBlogs() {
+		// write your logic here
 		return null;
 	}
 }
